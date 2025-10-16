@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pink MD | NYC Artist & DJ',
     description: 'NYC finance girl energy. Club records, runway hooks, and clean hustle anthems. Stream "Efficient" now.',
-    url: 'https://pinkmd.fm',
+    url: 'https://pinkmd.me',
     siteName: 'Pink MD',
     images: [
       {
-        url: 'https://pinkmd.fm/images/nyc-skyline-pink.jpg',
+        url: 'https://pinkmd.me/images/nyc-skyline-pink.jpg',
         width: 1600,
         height: 900,
         alt: 'Pink MD - NYC Skyline in Pink',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pink MD | NYC Artist & DJ',
     description: 'NYC finance girl energy. Club records, runway hooks, and clean hustle anthems.',
-    images: ['https://pinkmd.fm/images/nyc-skyline-pink.jpg'],
+    images: ['https://pinkmd.me/images/nyc-skyline-pink.jpg'],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://pinkmd.fm" />
+        <link rel="canonical" href="https://pinkmd.me" />
         <meta name="theme-color" content="#000000" />
       </head>
       <body>{children}</body>

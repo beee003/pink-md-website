@@ -36,7 +36,7 @@ const ARTIST_INFO = {
   location: "New York City, NY, USA",
   description: "NYC-based artist blending Wall Street culture with dance floor energy. Creating club-ready singles with luxury city vibes, hooks that stick, and lyrics with a wink to finance.",
   email: "booking@pinkmd.fm",
-  website: "https://pinkmd.fm",
+  website: "https://pinkmd.me",
 };
 
 const MUSIC_LINKS = {
@@ -67,11 +67,11 @@ const structuredData = {
   "@graph": [
     {
       "@type": "MusicGroup",
-      "@id": "https://pinkmd.fm/#artist",
+      "@id": "https://pinkmd.me/#artist",
       "name": "Pink MD",
       "description": "NYC-based artist blending Wall Street culture with dance floor energy. Creating club-ready singles with luxury city vibes.",
       "genre": ["Club Music", "Dance Pop", "Electronic", "Pop"],
-      "url": "https://pinkmd.fm",
+      "url": "https://pinkmd.me",
       "sameAs": [
         "https://open.spotify.com/intl-de/track/3XnhaW5Ci1k1BeRlsxwUQD",
         "https://soundcloud.com/dy5pxvj75xav",
@@ -89,10 +89,10 @@ const structuredData = {
     },
     {
       "@type": "MusicRecording",
-      "@id": "https://pinkmd.fm/#efficient",
+      "@id": "https://pinkmd.me/#efficient",
       "name": "Efficient",
       "byArtist": {
-        "@id": "https://pinkmd.fm/#artist",
+        "@id": "https://pinkmd.me/#artist",
       },
       "genre": "Club Music",
       "description": "The finance-meets-club banger. High-energy dance track with Wall Street-inspired lyrics.",
@@ -100,39 +100,39 @@ const structuredData = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://pinkmd.fm/#website",
-      "url": "https://pinkmd.fm",
+      "@id": "https://pinkmd.me/#website",
+      "url": "https://pinkmd.me",
       "name": "Pink MD Official Website",
       "description": "Official website of Pink MD - NYC artist, DJ, and producer. Book for events, stream music, and get the latest updates.",
       "publisher": {
-        "@id": "https://pinkmd.fm/#artist",
+        "@id": "https://pinkmd.me/#artist",
       },
     },
     {
       "@type": "WebPage",
-      "@id": "https://pinkmd.fm/#webpage",
-      "url": "https://pinkmd.fm",
+      "@id": "https://pinkmd.me/#webpage",
+      "url": "https://pinkmd.me",
       "name": "Pink MD - Bloomberg Barbie | NYC Artist & DJ",
       "isPartOf": {
-        "@id": "https://pinkmd.fm/#website",
+        "@id": "https://pinkmd.me/#website",
       },
       "about": {
-        "@id": "https://pinkmd.fm/#artist",
+        "@id": "https://pinkmd.me/#artist",
       },
       "description": "Pink MD is a NYC-based artist blending finance culture with club music. Available for bookings, brand collaborations, and private events.",
     },
     {
       "@type": "Service",
-      "@id": "https://pinkmd.fm/#booking",
+      "@id": "https://pinkmd.me/#booking",
       "serviceType": "Music Performance Booking",
       "provider": {
-        "@id": "https://pinkmd.fm/#artist",
+        "@id": "https://pinkmd.me/#artist",
       },
-      "areaServed": "Worldwide",
+      "areaServed": "North America",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://pinkmd.fm/#booking",
-        "servicePhone": "",
+        "serviceUrl": "https://pinkmd.me/#booking",
+        "servicePhone": "+1 555 123 4567",
         "email": "booking@pinkmd.fm",
       },
       "offers": [

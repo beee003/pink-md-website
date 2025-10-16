@@ -28,4 +28,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap
-Sitemap: https://pinkmd.fm/sitemap.xml
+Sitemap: https://pinkmd.me/sitemap.xml

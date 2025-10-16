@@ -91,7 +91,7 @@ Pink MD, NYC artist, female DJ, club music, finance pop, Efficient, Maya artist,
 ## Contact Methods
 
 - **Booking Email:** booking@pinkmd.fm
-- **Website:** https://pinkmd.fm
+- **Website:** https://pinkmd.me
 - **Spotify:** https://open.spotify.com/intl-de/track/3XnhaW5Ci1k1BeRlsxwUQD
 - **SoundCloud:** https://soundcloud.com/dy5pxvj75xav
 
