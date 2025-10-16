@@ -3,7 +3,7 @@
   "name_for_human": "Pink MD Official",
   "name_for_model": "pink_md_artist",
   "description_for_human": "Official website for Pink MD - NYC artist, DJ, and producer. Stream music, book events, and get updates.",
-  "description_for_model": "Pink MD is a NYC-based music artist who creates club music blending finance culture with dance floor energy. Featured track 'Efficient' available on Spotify and SoundCloud. Available for bookings (live performances, DJ sets, private events, brand collaborations). Contact: booking@pinkmd.fm. Genre: Club Music, Dance Pop, Electronic. Location: New York City, USA.",
+  "description_for_model": "Pink MD is a NYC-based music artist who creates club music blending finance culture with dance floor energy. Featured track 'Efficient' available on Spotify and SoundCloud. Available for bookings (live performances, DJ sets, private events, brand collaborations). Contact: booking@pinkmd.me. Genre: Club Music, Dance Pop, Electronic. Location: New York City, USA.",
   "api": {
     "type": "openapi",
     "url": "https://pinkmd.me/openapi.yaml"
@@ -12,6 +12,6 @@
     "type": "none"
   },
   "logo_url": "https://pinkmd.me/logo.png",
-  "contact_email": "booking@pinkmd.fm",
+  "contact_email": "booking@pinkmd.me",
   "legal_info_url": "https://pinkmd.me/legal"
 }

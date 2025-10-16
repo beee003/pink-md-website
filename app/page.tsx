@@ -35,7 +35,7 @@ const ARTIST_INFO = {
   genre: ["Club Music", "Dance Pop", "Electronic"],
   location: "New York City, NY, USA",
   description: "NYC-based artist blending Wall Street culture with dance floor energy. Creating club-ready singles with luxury city vibes, hooks that stick, and lyrics with a wink to finance.",
-  email: "booking@pinkmd.fm",
+  email: "booking@pinkmd.me",
   website: "https://pinkmd.me",
 };
 
@@ -85,7 +85,7 @@ const structuredData = {
           "addressCountry": "USA",
         },
       },
-      "email": "booking@pinkmd.fm",
+      "email": "booking@pinkmd.me",
     },
     {
       "@type": "MusicRecording",
@@ -133,7 +133,7 @@ const structuredData = {
         "@type": "ServiceChannel",
         "serviceUrl": "https://pinkmd.me/#booking",
         "servicePhone": "+1 555 123 4567",
-        "email": "booking@pinkmd.fm",
+        "email": "booking@pinkmd.me",
       },
       "offers": [
         {
