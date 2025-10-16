@@ -347,15 +347,6 @@ export default function PinkMD() {
             <h2 id="about-heading" className="text-2xl md:text-3xl font-semibold">
               About Pink MD
             </h2>
-            <p className="text-white/80 mt-3 leading-relaxed">
-              Pink MD is Maya — NYC-based artist blending finance culture with club music.
-              Hooks that stick, melodies that lift, and lyrics with a wink to Wall Street.
-            </p>
-            <ul className="mt-4 space-y-2 text-white/70 list-disc list-inside">
-              <li>Club-ready singles with luxury city energy</li>
-              <li>Performances and DJ support across NYC</li>
-              <li>Open to brand collabs, syncs, and private sets</li>
-            </ul>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={MUSIC_LINKS.spotify}
